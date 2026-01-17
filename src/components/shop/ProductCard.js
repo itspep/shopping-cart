@@ -56,7 +56,7 @@ const ProductCard = ({ product }) => {
       <div className="product-info">
         <h3 className="product-title">{product.title || product.name}</h3>
         <p className="product-category">{product.category}</p>
-        <p className="product-price">${product.price.toFixed(2)}</p>
+        <p className="product-price">₵{product.price.toFixed(2)}</p>
         
         <div className="product-description">
           {product.description && product.description.length > 100 
