@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Us</h4>
             <p><i className="fas fa-envelope"></i> support@shopeasy.com</p>
-            <p><i className="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i className="fas fa-phone"></i> (233) 523-4567</p>
           </div>
         </div>
         

@@ -17,7 +17,7 @@ const CartSummary = () => {
       <div className="summary-details">
         <div className="summary-row">
           <span>Items ({cartItems.length})</span>
-          <span>${subtotal.toFixed(2)}</span>
+          <span>₵{subtotal.toFixed(2)}</span>
         </div>
         
         <div className="summary-row">
@@ -27,20 +27,20 @@ const CartSummary = () => {
         
         <div className="summary-row">
           <span>Tax (8%)</span>
-          <span>${tax.toFixed(2)}</span>
+          <span>₵{tax.toFixed(2)}</span>
         </div>
         
         <div className="summary-divider"></div>
         
         <div className="summary-row total">
           <span>Total</span>
-          <span>${total.toFixed(2)}</span>
+          <span>₵{total.toFixed(2)}</span>
         </div>
       </div>
       
       <div className="summary-note">
         <i className="fas fa-info-circle"></i>
-        <p>Free shipping on orders over $50!</p>
+        <p>Free shipping on orders over ₵50!</p>
       </div>
     </div>
   );

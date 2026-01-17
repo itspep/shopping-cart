@@ -28,7 +28,7 @@ const CartItem = ({ item }) => {
       
       <div className="cart-item-details">
         <h3 className="cart-item-title">{item.name}</h3>
-        <p className="cart-item-price">${item.price.toFixed(2)} each</p>
+        <p className="cart-item-price">₵{item.price.toFixed(2)} each</p>
       </div>
       
       <div className="cart-item-quantity">
@@ -44,7 +44,7 @@ const CartItem = ({ item }) => {
       
       <div className="cart-item-total">
         <span className="total-label">Total:</span>
-        <span className="total-amount">${itemTotal.toFixed(2)}</span>
+        <span className="total-amount">₵{itemTotal.toFixed(2)}</span>
       </div>
       
       <div className="cart-item-actions">
