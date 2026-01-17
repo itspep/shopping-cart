@@ -1,0 +1,69 @@
+/* Loading Spinner */
+.loading-spinner {
+  border: 3px solid #e9ecef;
+  border-top: 3px solid #4361ee;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+.spinner-small {
+  width: 30px;
+  height: 30px;
+}
+
+.spinner-medium {
+  width: 50px;
+  height: 50px;
+}
+
+.spinner-large {
+  width: 70px;
+  height: 70px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error Message */
+.error-message {
+  background-color: #fee;
+  border: 1px solid #fcc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.error-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.error-icon {
+  font-size: 3rem;
+  color: #d32f2f;
+}
+
+.error-text {
+  color: #d32f2f;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Visually Hidden for Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
